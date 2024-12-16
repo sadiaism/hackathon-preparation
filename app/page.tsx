@@ -13,7 +13,7 @@ const Home = () => {
         {/* 1st */}
         <div className="flex flex-col w-[217px] h-[344px] mt-[45px] ml-[135px] gap-[16px] mobile:ml-[35px]">
           <h1 className="flex gap-[51px] font-[Poppins]">
-            Women's Fashion
+            {`Women's Fashion`}
             <Image
               src={"/images/leftarrow.svg"}
               alt="arrow"
@@ -21,7 +21,7 @@ const Home = () => {
               height={24}
             /></h1>
            <h1 className="flex gap-[73px] font-[Poppins]">
-            Men's Fashion
+            {`Men's Fashion`}
             <Image
               src={"/images/leftarrow.svg"}
               alt="arrow"
@@ -32,7 +32,7 @@ const Home = () => {
           <h1 className="font-[Poppins] texr-[16px]">Home & Lifestyle</h1>
           <h1 className="font-[Poppins] texr-[16px]">Medicine</h1>
           <h1 className="font-[Poppins] texr-[16px]">Sports & Outdoors</h1>
-          <h1 className="font-[Poppins] texr-[16px]">Baby's & Toys</h1>
+          <h1 className="font-[Poppins] texr-[16px]">{`Baby's & Toys`}</h1>
           <h1 className="font-[Poppins] texr-[16px]">Groceries and Pets</h1>
           <h1 className="font-[Poppins] texr-[16px]">health & Beauty</h1>
         </div>
@@ -72,7 +72,7 @@ const Home = () => {
         <div className="flex gap-[470px] mobile:flex-col mobile:gap-[12px]">
     {/* 1st */}
           <div className="flex flex-col">
-           <div className="flex text-[#DB4444] gap-[16px] text-[16px] font-[Poppins]"><Image src={"/images/Rectangle 18.svg"}alt="Rectangle"width={20}height={40}/>Today's</div>
+           <div className="flex text-[#DB4444] gap-[16px] text-[16px] font-[Poppins]"><Image src={"/images/Rectangle 18.svg"}alt="Rectangle"width={20}height={40}/>{`Today's`}</div>
            <div className="flex justify-evenly">
             <div className="text-[36px] font-medium mt-3">Flash Sales</div>
             
@@ -459,7 +459,7 @@ const Home = () => {
         </div>
         {/* text div */}
         <div>
-          <h1 className="font-semibold">Jr. Zoom Soccer Cleats</h1>
+          <h1 className="font-semibold">{`Jr. Zoom Soccer Cleats`}</h1>
           <h2 className="flex gap-[8px]">
             <div className="text-[#DB4444]">$1160</div>
             <div><Image src={"/images/Five star.svg"}alt="sta"width={100}height={20}/></div>
@@ -524,7 +524,7 @@ const Home = () => {
       <div className="text-[36px] font-semibold">New Arrival</div>
       {/* col div */}
       <div className="flex gap-[32px] mobile:flex-col">
-        <div className="w-[570px] h-[600px] bg-[#000000] bg-[url('/images/slim.svg')] bg-no-repeat mobile:w-[350px]"><div className="flex flex-col mt-[446px] ml-[32px] text-[#FAFAFA]"><h1 className="text-[24px] font-semibold">PlayStation 5</h1><h2>Black and White version of the PS5 <br/> coming out on sale.</h2><Button variant={'apnaStyle'} className="underline w-[81px]">ShopNow</Button></div>
+        <div className="w-[570px] h-[600px] bg-[#000000] bg-[url('/images/slim.svg')] bg-no-repeat mobile:w-[350px]"><div className="flex flex-col mt-[446px] ml-[32px] text-[#FAFAFA]"><h1 className="text-[24px] font-semibold">PlayStation 5</h1><h2>Black and White version of the PS5 <br/> {`coming out on sale.`}</h2><Button variant={'apnaStyle'} className="underline w-[81px]">ShopNow</Button></div>
 
         </div>
 
