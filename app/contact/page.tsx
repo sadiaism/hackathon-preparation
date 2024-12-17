@@ -40,14 +40,14 @@ const page = () => {
                 <div className='flex flex-col'>
              {/* 1st three box div */}
               <div className='flex gap-[16px] mobile:flex-col'>
-                <div className='w-[235px] h-[50px] bg-[#F5F5F5] pl-3 pt-3'>Your Name</div>
-                <div className='w-[235px] h-[50px] bg-[#F5F5F5] pl-3 pt-3'>Your Email</div>
-                <div className='w-[235px] h-[50px] bg-[#F5F5F5] pl-3 pt-3'>Your Phone</div>
+                <div className='w-[235px] h-[50px] bg-[#F5F5F5] pl-3 pt-3'><input type="text" placeholder="Your Name"></input></div>
+                <div className='w-[235px] h-[50px] bg-[#F5F5F5] pl-3 pt-3'><input type="text" placeholder="Your Email"></input></div>
+                <div className='w-[235px] h-[50px] bg-[#F5F5F5] pl-3 pt-3'><input type="text" placeholder="Your Phone"></input></div>
               </div>
 
 
              {/* 2nd div */}
-            <div className='w-[737px] h-[207px] bg-[#F5F5F5] gap-[16px] mt-[32px] pt-3 pl-3 mobile:w-[300px] mobile:h-[100px]'>Your Message</div>
+            <div className='w-[737px] h-[207px] bg-[#F5F5F5] gap-[16px] mt-[32px] pt-3 pl-3 mobile:w-[300px] mobile:h-[100px]'><input type="text" placeholder="Your Message"></input></div>
 
                 </div>
                 <Button variant={'apnaStyle'} className='mt-[12px] bg-[#DB4444] ml-[610px] text-[#FFFFFF] mobile:ml-[50px]'>Send Message</Button>
