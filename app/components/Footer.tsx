@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
         <div className='flex flex-col bg-black'>
             {/* 1st div */}
-            <div className='grid grid-cols-5 mt-[80px] ml-[135px] gap-[87px] mobile:grid-cols-1 mobile:ml-[50px]'>
+            <div className='grid grid-cols-5 mt-[80px] ml-[80px] gap-[50px] mobile:grid-cols-1 mobile:ml-[50px]'>
                 {/* 1st col */}
                  <div className='flex flex-col w-[217px] h-[188px] gap-[16px] text-[#FAFAFA]'>
                     <h1 className='font-bold text-[24px]'>Exclusive</h1>
