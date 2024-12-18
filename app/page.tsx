@@ -69,14 +69,14 @@ const Home = () => {
 {/* 2nd section */}
       <div className="mt-[100px] ml-[135px] gap-[40px] mobile:ml-[4px]">
         {/* text div */}
-        <div className="flex gap-[470px] mobile:flex-col mobile:gap-[12px]">
+        <div className="flex gap-[470px] mobile:flex-col mobile:gap-[10px]">
     {/* 1st */}
           <div className="flex flex-col">
            <div className="flex text-[#DB4444] gap-[16px] text-[16px] font-[Poppins]"><Image src={"/images/Rectangle 18.svg"}alt="Rectangle"width={20}height={40}/>{`Today's`}</div>
            <div className="flex justify-evenly">
             <div className="text-[36px] font-medium mt-3">Flash Sales</div>
             
-            <div className="flex ml-11 mobile:ml-1 mobile:mt-12">
+            <div className="flex ml-11 mobile:ml-0 mobile:mt-12">
             <div className="flex ml-[16px] mb-[16px]"><div className="gap-[4px]"><h1 className="text-[12px] font-semibold">Days</h1><p className="text-[32px] font-bold">03</p></div><div className="mt-[26px] ml-[16px] text-[#DB4444]">:</div></div>
 
             <div className="flex ml-[16px] mb-[16px]"><div className="gap-[4px]"><h1 className="text-[12px] font-semibold">Hours</h1><p className="text-[32px] font-bold">23</p></div><div className="mt-[26px] ml-[16px] text-[#DB4444]">:</div></div>
@@ -111,7 +111,7 @@ const Home = () => {
        {/* 2nd col */}
        <div className="flex flex-col gap-[8px]">
         {/* image div */}
-        <div className="w-[270px] h-[250px] bg-[#F5F5F5] bg-[url('/images/Keyboard.svg')] bg-no-repeat bg-center">
+        <div className="w-[270px] h-[250px] bg-[#F5F5F5] bg-[url('/images/keyboard.svg')] bg-no-repeat bg-center">
         <div className="flex justify-between mt-[12px] ml-[12px] mr-[12px]"><h1 className="w-[55px] h-[26px] bg-[#DB4444] text-[#FFFFFF]">-35%</h1>
           <div className="flex flex-col"><Image src={"/images/Wishlist.svg"}alt="wishlist"width={34}height={34}/><Image src={"/images/Fill Eye.svg"}alt="eye"width={34}height={34}/></div>
         </div><div className="mt-[129px] bg-black w-[270px] h-[41px] text-[#FFFFFF] text-center">Add to cart</div></div> 

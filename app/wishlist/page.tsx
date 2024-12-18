@@ -150,7 +150,7 @@ const page = () => {
                 {/* 4th col */}
                 <div className='flex flex-col w-[270px] h-[322px] gap-[16px]'>
                     {/* img */}
-                    <div className="w-[270px] h-[250px] r-[4px] bg-[#F5F5F5] bg-[url('/images/Keyboard.svg')] bg-center bg-no-repeat">
+                    <div className="w-[270px] h-[250px] r-[4px] bg-[#F5F5F5] bg-[url('/images/keyboard.svg')] bg-center bg-no-repeat">
                     <div className='flex justify-end pt-[12px] pl-[12px] pr-[12px]'><h2><Image src={"/images/Fill Eye.svg"}alt="eye"width={34}height={34}/></h2></div><div className='bg-black mt-[162px] h-[41px] text-[#FFFFFF]'><div className='flex ml-[84px] pt-[10px] gap-[10px]'><Image src={"/images/Cart white.svg"}alt="apple"width={24}height={24}/><h1 className='text-[12px]'>Add to Cart</h1></div></div></div>
 
                     {/* text div */}

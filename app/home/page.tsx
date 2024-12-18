@@ -111,7 +111,7 @@ const Home = () => {
        {/* 2nd col */}
        <div className="flex flex-col gap-[8px]">
         {/* image div */}
-        <div className="w-[270px] h-[250px] bg-[#F5F5F5] bg-[url('/images/Keyboard.svg')] bg-no-repeat bg-center">
+        <div className="w-[270px] h-[250px] bg-[#F5F5F5] bg-[url('/images/keyboard.svg')] bg-no-repeat bg-center">
         <div className="flex justify-between mt-[12px] ml-[12px] mr-[12px]"><h1 className="w-[55px] h-[26px] bg-[#DB4444] text-[#FFFFFF]">-35%</h1>
           <div className="flex flex-col"><Image src={"/images/Wishlist.svg"}alt="wishlist"width={34}height={34}/><Image src={"/images/Fill Eye.svg"}alt="eye"width={34}height={34}/></div>
         </div><div className="mt-[129px] bg-black w-[270px] h-[41px] text-[#FFFFFF] text-center">Add to cart</div></div> 

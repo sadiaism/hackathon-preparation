@@ -5,10 +5,10 @@ import { Button } from '@/components/ui/button'
 const page = () => {
   return (
     <div>
-    <div className='ml-[135px] mt-[100px] mobile:ml-[50px]'>Home / Cart</div>
+    <div className='ml-[135px] mt-[100px] mobile:ml-[30px]'>Home / Cart</div>
 
 {/* 1st */}
-    <div className='flex flex-col ml-[135px] mt-[50px] w-[1170px] mb-[100px] mobile:ml-[50px]'>
+    <div className='flex flex-col ml-[135px] mt-[50px] w-[1170px] mb-[100px] mobile:ml-[30px]'>
 
         <div className='flex gap-[284px] mobile:gap-[39px]'>
             <h1>Product</h1>

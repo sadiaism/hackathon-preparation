@@ -23,7 +23,7 @@ const page = () => {
                   <h4 className='border-b-[1px] border-b-[#000000]'><input type="text" placeholder="Email Or PhoneNumber"></input></h4>
                   <h5 className='border-b-[1px] border-b-[#000000]'><input type="text" placeholder="Password"></input></h5>
                   <Button variant={'apnaStyle'} className="bg-[#DB4444] h-[56px] text-[#FFFFFF]">Create Account</Button>
-                  <Button variant={'apnaStyle'} className='border-[1px] border-[#000000] h-[56px]'><Image src={"/images/icon-Google.svg"}alt="google"width={24}height={24}/>Sign Up with Google</Button>
+                  <Button variant={'apnaStyle'} className='border-[1px] border-[#000000] h-[56px]'><Image src={"/images/Icon-Google.svg"}alt="google"width={24}height={24}/>Sign Up with Google</Button>
                   <h6 className='text-center'>Already have account?<Link href="./login"><Button variant={'apnaStyle'} className='underline'>Login</Button></Link></h6>
 
                 </div>

@@ -57,7 +57,7 @@ const Footer = () => {
                       <Button><Image src={"/images/appStore.svg"}alt="appstore"width={110}height={34}/></Button>
                     </div>
                   </h3>
-                  <h4 className='flex w-[168px] h-[24px] gap-[24px]'><Image src={"/images/Icon-Facebook.svg"}alt="google"width={24}height={24}/><Image src={"/images/Icon-Twitter.svg"}alt="google"width={24}height={24}/><Image src={"/images/Icon-instagram.svg"}alt="google"width={24}height={24}/><Image src={"/images/Icon-Linkedin.svg"}alt="google"width={24}height={24}/></h4>
+                  <h4 className='flex w-[168px] h-[24px] gap-[24px]'><Image src={"/images/Icon-Facebook.svg"}alt="google"width={24}height={24}/><Image src={"/images/Icon-Twitter.svg"}alt="google"width={24}height={24}/><Image src={"/images/icon-instagram.svg"}alt="google"width={24}height={24}/><Image src={"/images/Icon-Linkedin.svg"}alt="google"width={24}height={24}/></h4>
 
                  </div>
                  </div>
